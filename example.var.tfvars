@@ -1,0 +1,7 @@
+region            = "ap-south-1"
+vpc_CIDRblock     = "10.20.0.0/16"
+instance_tenancy  = "default"
+subnet_CIDRblock  = "10.20.1.0/24"
+availability_Zone = "ap-south-1a"
+instance_size     = "t2.micro"
+private_ip        = "10.20.1.100"
