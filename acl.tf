@@ -18,7 +18,6 @@ resource "aws_network_acl" "Omada_VPC_Security_ACL" {
     action     = "allow"
     protocol   = "-1"
     cidr_block = "0.0.0.0/0"
-    # ipv6_cidr_block = "::/0"
   }
 
   tags = {
