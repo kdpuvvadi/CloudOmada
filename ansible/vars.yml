@@ -1,0 +1,4 @@
+---
+config_dir: '/home/ansible/omada/'
+omada_url: https://static.tp-link.com/upload/software/2022/202203/20220322/Omada_SDN_Controller_v5.1.7_Linux_x64.tar.gz
+omada_dir: '/home/ansible/omada/'
