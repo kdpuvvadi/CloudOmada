@@ -26,7 +26,10 @@ resource "aws_instance" "omada_instance" {
     volume_size           = 50
     volume_type           = "gp2"
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e8aba6b05fb6eee820e1734c6a40860d306d8722
 }
 
 resource "aws_key_pair" "omada_key" {
