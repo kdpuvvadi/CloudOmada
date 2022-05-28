@@ -83,7 +83,7 @@ TF_STATE=./ ansible-playbook --inventory-file=/usr/local/bin/terraform-inventory
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/kdpuvvadi/CloudOmada/blob/main/LICENSE)
 
 ## Feedback
 
