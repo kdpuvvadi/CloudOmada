@@ -76,7 +76,7 @@ To run the ansible playbook, inventory in required.
 ### Run ansible playbook
 
 ```bash
-TF_STATE=./ ansible-playbook --inventory-file=/usr/bin/terraform-inventory ansible/main.yml
+TF_STATE=./ ansible-playbook --inventory-file=/usr/local/bin/terraform-inventory ansible/main.yml
 ```
 
 > Default user of the AWS Ubuntu instance is `ubuntu`, which is used in the `ansible.cfg`
