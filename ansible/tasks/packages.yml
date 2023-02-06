@@ -1,13 +1,13 @@
 ---
 
-- name: apt cache update & upgrade
+- name: Apt cache update & upgrade
   ansible.builtin.apt:
     update_cache: true
     cache_valid_time: 3600
     upgrade: full
   when: ansible_facts.os_family == "Debian"
 
-- name: apt install packages
+- name: Apt install packages
   ansible.builtin.apt:
     name:
       - mongodb
@@ -25,14 +25,14 @@
     enabled: true
   when: ansible_facts.os_family == "Debian"
 
-- name: is mongodb installed
+- name: Is mongodb installed
   ansible.builtin.command: which mongodb
   failed_when: false
   changed_when: false
   check_mode: false
   register: mongo_preset
 
-- name: is Omada installed
+- name: Is Omada installed
   ansible.builtin.command: which tpeap
   failed_when: false
   changed_when: false
